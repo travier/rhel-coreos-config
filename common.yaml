@@ -331,6 +331,8 @@ packages:
   - redhat-release-eula
   # For Fibre Channel storage over Ethernet support
   - fcoe-utils
+  # Used by libvirt and KubeVirt
+  - numad
 
 packages-x86_64:
   # Temporary add of open-vm-tools. Should be removed when containerized
